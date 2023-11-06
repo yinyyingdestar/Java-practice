@@ -2,16 +2,16 @@ import java.util.Scanner;
 public class Array4{
     public static void main (String[] args) {
     	Scanner myScanner = new Scanner(System.in);
-    	System.out.print("ÇëÊäÈëÊı×é³¤¶È£º");
+    	System.out.print("è¯·è¾“å…¥æ•°ç»„é•¿åº¦ï¼š");
     	
     	int l = myScanner.nextInt();
     	int arr[] = new int[l];
     	for(int b = 0; b < l; b++){
     		int c = b;
-    		System.out.printf("ÇëÊäÈëÊı×éÔªËØ%d: ", c);
+    		System.out.printf("è¯·è¾“å…¥æ•°ç»„å…ƒç´ %d: ", c);
     		arr[b] = myScanner.nextInt();
     	}
-    	System.out.print("ÇëÊäÈëÄ¿±êÖµ £º");
+    	System.out.print("è¯·è¾“å…¥ç›®æ ‡å€¼ ï¼š");
     	int target = myScanner.nextInt();
 
 
